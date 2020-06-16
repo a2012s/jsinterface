@@ -22,8 +22,8 @@ public class JsInterfacePresenter extends BasePresenter implements JsInterfaceCo
     @Override
     protected void start(boolean isFirstStart) {
         if (isFirstStart) {
-            mView.renderUrl("file:///android_asset/jsinterface.html");
-           // mView.renderUrl("https://app.compound.finance");
+            //mView.renderUrl("file:///android_asset/jsinterface.html");
+            mView.renderUrl("https://app.compound.finance");
 
            // mView.execJavaScript();
 

@@ -129,7 +129,7 @@ public class JsInterfaceFragment extends BaseFragment<JsInterfaceContract.Presen
 
             AssetManager am = null;
             am = getActivity().getAssets();
-            InputStream in = am.open("trustmin16.js");
+            InputStream in = am.open("trustmin17.js");
 
             byte[] b = new byte[in.available()];
             int readLen = in.read(b);

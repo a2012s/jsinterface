@@ -26,6 +26,11 @@ public class JsInterfaceLogic {
     }
 
     @JavascriptInterface
+    public void send(String ss) {
+        mFragment.showNativeMessage("执行【send】操作"+ss);
+    }
+
+    @JavascriptInterface
     public String getLoginUser() {
         return new JSONObject(new HashMap(4) {{
             put("user_id", 666);
